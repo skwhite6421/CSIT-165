@@ -10,7 +10,7 @@
 
 
 # Add a "dinner" element to your `meals` list that has what you plan to eat 
-# for dinner
+# for dinner as a character vector
 
 
 # Use dollar notation to extract your `dinner` element from your list
@@ -25,15 +25,6 @@
 # and save them to a list called `early_meals`
 
 
-
-### Challenge ###
-
 # Create a list that has the number of items you ate for each meal
 # Hint: use the `lappy()` function to apply the `length()` function to each item
 
-
-# Write a function `add_pizza` that adds pizza to a given meal vector, and
-# returns the pizza-fied vector
-
-
-# Create a vector `better_meals` that is all your meals, but with pizza!

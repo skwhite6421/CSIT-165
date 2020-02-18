@@ -9,7 +9,8 @@
 
 
 # Create a variable 'sentence' that contains a sentence of text (something 
-# longish). Make the sentence lowercase; you can use a function to help.
+# longish with capital and lower case letters). Make the sentence lowercase using
+# a function to help.
 
 
 # Use the `strsplit()` function to split the sentence into a vector of letters.
@@ -23,14 +24,15 @@
 # Use the `unique()` function to get a vector of unique letters
 
 
-# Define a function `count_occurrences` that takes in two parameters: a letter 
-# and a vector of letters. The function should return how many times that letter
-# occurs in the provided vector.
-# Hint: use a filter operation!
+# Determine how many times the letter "e" is in `sentence`
+# Hint: Use length to determine the size of the list returned after using a filter
+# operation (`==`)
 
 
-# Call your `count_occurrences()` function to see how many times the letter 'e'
-# is in your sentence.
+# Perform this operation after declaring and running the function below:
+count_occurrences <- function(letter, all_letters) {
+  length(all_letters[all_letters == letter])
+}
 
 
 # Use `sapply()` to apply your `count_occurrences()` function to each unique 
